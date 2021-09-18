@@ -33,12 +33,12 @@ http://localhost:3333/cnabs - Recebe os dados dos arquivos cadastrados
 # Vá para a pasta do projeto
 $ cd desafio_cnab
 
+# Instale as dependências
+$ npm i
+
 # após criar o banco de dados conforme informado no pré requisito, rode os comandos do kenx
 $ npx knex migrate:latest
 $ npx knex seed:run
-
-# Instale as dependências
-$ npm i
 
 # Execute a aplicação em modo de desenvolvimento
 $ npm run dev
