@@ -9,6 +9,7 @@ app.db = db
 
 consign()
   .then('./config/Middlewares.js')
+  .then("/config/swagger.js")
   .then('./controllers')
   .then('./config/Routes.js')
   .into(app)
