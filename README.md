@@ -33,6 +33,9 @@ http://localhost:3333/cnabs - Recebe os dados dos arquivos cadastrados
 # Vá para a pasta do projeto
 $ cd desafio_cnab
 
+# na rais do projeto crie uma pasta chamada
+cnabs
+
 # Instale as dependências
 $ npm i
 
